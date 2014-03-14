@@ -16,7 +16,7 @@ public class LifeAppPart extends Fragment {
         int position = getArguments().getInt("position");
  
         // List of rivers
-        String[] rivers = getResources().getStringArray(R.array.rivers);
+        String[] rivers = getResources().getStringArray(R.array.life_app);
  
         // Creating view correspoding to the fragment
         View v = inflater.inflate(R.layout.fragment_layout, container, false);

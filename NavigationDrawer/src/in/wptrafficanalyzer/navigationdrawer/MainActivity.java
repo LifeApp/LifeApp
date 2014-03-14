@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
  
                 /** Called when a drawer is opened */
                 public void onDrawerOpened(View drawerView) {
-                    getActionBar().setTitle("Select a river");
+                    getActionBar().setTitle("Life-App");
                     invalidateOptionsMenu();
                 }
         };
@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
             getBaseContext(),
             R.layout.drawer_list_item ,
-            getResources().getStringArray(R.array.rivers)
+            getResources().getStringArray(R.array.life_app)
         );
  
         // Setting the adapter on mDrawerList
@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
                 long id) {
  
                     // Getting an array of rivers
-                    String[] rivers = getResources().getStringArray(R.array.rivers);
+                    String[] rivers = getResources().getStringArray(R.array.life_app);
  
                     //Currently selected river
                     mTitle = rivers[position];
