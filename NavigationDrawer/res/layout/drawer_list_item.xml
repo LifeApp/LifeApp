@@ -5,6 +5,8 @@
     android:gravity="center_vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
     android:textColor="#fff"
     android:background="?android:attr/activatedBackgroundIndicator"/>
 	<!-- These two lines break api 11 makes text small and bunched together, 
