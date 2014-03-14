@@ -1,5 +1,6 @@
 package in.wptrafficanalyzer.navigationdrawer;
 
+import in.wptrafficanalyzer.navigationdrawer.R;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -17,10 +18,10 @@ import android.widget.ListView;
 public class MainActivity extends Activity {
 
 	// Within which the entire activity is enclosed
-    DrawerLayout mDrawerLayout;
+    DrawerLayout lifeDrawerLayout;
  
     // ListView represents Navigation Drawer
-    ListView mDrawerList;
+    ListView lifeDrawerList;
  
     // ActionBarDrawerToggle indicates the presence of Navigation Drawer in the action bar
     ActionBarDrawerToggle mDrawerToggle;
@@ -32,18 +33,20 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
  
         super.onCreate(savedInstanceState);
+        //Starts the main layout 
+        //Maybe we can edit this so that the Nav drawer is over the relationship maintenance layout
         setContentView(R.layout.activity_main);
  
         mTitle = (String) getTitle();
  
         // Getting reference to the DrawerLayout
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        lifeDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
  
-        mDrawerList = (ListView) findViewById(R.id.drawer_list);
+        lifeDrawerList = (ListView) findViewById(R.id.drawer_list);
  
         // Getting reference to the ActionBarDrawerToggle
         mDrawerToggle = new ActionBarDrawerToggle( this,
-            mDrawerLayout,
+            lifeDrawerLayout,
             R.drawable.ic_drawer,
             R.string.drawer_open,
             R.string.drawer_close){
@@ -62,7 +65,7 @@ public class MainActivity extends Activity {
         };
  
         // Setting DrawerToggle on DrawerLayout
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        lifeDrawerLayout.setDrawerListener(mDrawerToggle);
  
         // Creating an ArrayAdapter to add items to the listview mDrawerList
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
@@ -72,16 +75,22 @@ public class MainActivity extends Activity {
         );
  
         // Setting the adapter on mDrawerList
-        mDrawerList.setAdapter(adapter);
+        lifeDrawerList.setAdapter(adapter);
  
+        
+        /*       
+         BREAKS API 11 
+         This portion break api 11 so its commented out, everything so far still works like normal
         // Enabling Home button
         getActionBar().setHomeButtonEnabled(true);
+        
+        */
  
         // Enabling Up navigation
         getActionBar().setDisplayHomeAsUpEnabled(true);
  
         // Setting item click listener for the listview mDrawerList
-        mDrawerList.setOnItemClickListener(new OnItemClickListener() {
+        lifeDrawerList.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent,
                 View view,
@@ -119,7 +128,7 @@ public class MainActivity extends Activity {
                     ft.commit();
  
                     // Closing the drawer
-                    mDrawerLayout.closeDrawer(mDrawerList);
+                    lifeDrawerLayout.closeDrawer(lifeDrawerList);
             }
         });
     }
@@ -143,7 +152,7 @@ public class MainActivity extends Activity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // If the drawer is open, hide action items related to the content view
-        boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
+        boolean drawerOpen = lifeDrawerLayout.isDrawerOpen(lifeDrawerList);
  
         menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);

@@ -1,5 +1,6 @@
 package in.wptrafficanalyzer.navigationdrawer;
 
+import in.wptrafficanalyzer.navigationdrawer.R;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
