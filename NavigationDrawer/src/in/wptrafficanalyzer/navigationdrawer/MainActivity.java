@@ -68,14 +68,15 @@ public class MainActivity extends Activity {
         lifeDrawerLayout.setDrawerListener(mDrawerToggle);
  
         // Creating an ArrayAdapter to add items to the listview mDrawerList
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+        ArrayAdapter<String> lifeMainMenuItems = new ArrayAdapter<String>(
             getBaseContext(),
             R.layout.drawer_list_item ,
-            getResources().getStringArray(R.array.life_app)
+            getResources().getStringArray(R.array.life_app_main_menu_items)
         );
  
         // Setting the adapter on mDrawerList
-        lifeDrawerList.setAdapter(adapter);
+        // Puts the menu items on the nav drawer
+        lifeDrawerList.setAdapter(lifeMainMenuItems);
  
         
         /*       
@@ -97,11 +98,11 @@ public class MainActivity extends Activity {
                 int position,
                 long id) {
  
-                    // Getting an array of rivers
-                    String[] rivers = getResources().getStringArray(R.array.life_app);
+                    // Getting an array of menu items
+                    String[] menuItems = getResources().getStringArray(R.array.life_app_main_menu_items);
  
-                    //Currently selected river
-                    mTitle = rivers[position];
+                    //Currently selected menu item
+                    mTitle = menuItems[position];
  
                     // Creating a fragment object
                     LifeAppPart rFragment = new LifeAppPart();

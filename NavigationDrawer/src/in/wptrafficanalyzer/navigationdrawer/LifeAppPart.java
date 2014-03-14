@@ -16,20 +16,26 @@ public class LifeAppPart extends Fragment {
         // Retrieving the currently selected item number
         int position = getArguments().getInt("position");
  
-        // List of rivers
-        String[] rivers = getResources().getStringArray(R.array.life_app);
+        // List of menu items
+        String[] menuItems = getResources().getStringArray(R.array.life_app_main_menu_items);
  
         // Creating view correspoding to the fragment
+        /*IMPORTANT******* 
+         * This references the layout to be displayed after clicking a menu item
+         */
         View v = inflater.inflate(R.layout.fragment_layout, container, false);
  
-        // Getting reference to the TextView of the Fragment
+        // Getting reference to the TextView of the Fragment   
+        //The next few lines are irrelevant since this referenes the text view of the fragment layout
+        //we need to change this fragment layout to the different menu activities
         TextView tv = (TextView) v.findViewById(R.id.tv_content);
  
         // Setting currently selected river name in the TextView
-        tv.setText(rivers[position]);
+        //
+        tv.setText(menuItems[position]);
  
         // Updating the action bar title
-        getActivity().getActionBar().setTitle(rivers[position]);
+        getActivity().getActionBar().setTitle(menuItems[position]);
  
         return v;
     }
