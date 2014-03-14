@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NavigationDrawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string-array name="Life App">
+        <item >Relationship Maintenance</item>
+        <item >Scripts</item>
+        <item >Hygiene</item>
+        <item >Time Management</item>
+        <item >Emergency Information</item>
+      
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>
