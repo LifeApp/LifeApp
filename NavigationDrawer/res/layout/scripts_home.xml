@@ -1,0 +1,45 @@
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/greetings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/departures_button"
+            android:layout_marginTop="41dp"
+            android:text="@string/greetings_button" />
+                
+        <Button
+            android:id = "@+id/departures_button"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below="@id/greetings_button"
+            android:layout_marginTop = "45dp"
+            android:layout_centerHorizontal = "true"
+            android:text="@string/departures_button" />
+
+        <Button
+            android:id="@+id/disagreements_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departures_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="@string/disagreements_button" />
+        <Button
+            android:id = "@+id/dos_and_donts_button"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below="@id/disagreements_button"
+            android:layout_marginTop = "45dp"
+            android:layout_centerHorizontal = "true"
+            android:text="@string/dos_and_donts_button" />
+    </RelativeLayout>
+
+</ScrollView>

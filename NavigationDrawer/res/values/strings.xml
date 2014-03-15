@@ -14,4 +14,35 @@
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="greetings_button">Greetings</string>
+    <string name="departures_button">Departures</string>
+    <string name="disagreements_button">Handling Disagreements</string>
+    <string name="dos_and_donts_button">Conversation Dos and Donts</string>
+    <string name="scripts_home_title">Scripts</string>
+    <string name="family_sub_cat">Family</string>
+    <string name="friends_sub_cat">Friends</string>
+    <string name="new_people_sub_cat">New People</string>
+    <string name="professionals_sub_cat">Professionals</string>
+    <string name="script_sample_text">Written Samples</string>
+    <string name="video_sample_text">Videos</string>
+    <string name="title_activity_departures_script">Departures Script</string>
+    <string name="title_activity_disagreements_script">Disagreements Script</string>
+    <string name="title_activity_dos_and_donts_script">Dos And Donts Script</string>
+    <string name="title_activity_greetings_script">Greetings Script</string>
+    <string name="title_activity_written_samples">Written Samples</string>
+    <string name="title_activity_video_samples">Video Samples</string>
+    <string name="asking_questions_button">Asking Questions</string>
+    <string name="active_listening_button">Active Listening</string>
+    <string name="volume_button">Volume</string>
+    <string name="content_button">Content</string>
+    <string name="title_activity_asking_questions">Asking Questions</string>
+    <string name="title_activity_active_listening">Active Listening</string>
+    <string name="title_activity_volume">Volume</string>
+    <string name="title_activity_content">Content</string>
+    <string name="sample_script_family">FAMILYThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    <string name="sample_script_friends">FRIENDSThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    <string name="sample_script_new_people">NEW PEOPLEThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    <string name="sample_script_professionals">PROFESSIONALSThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    <string name="sample_script_long">The best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    
 </resources>

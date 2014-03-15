@@ -23,8 +23,31 @@ public class LifeAppPart extends Fragment {
         /*IMPORTANT******* 
          * This references the layout to be displayed after clicking a menu item
          */
-        View v = inflater.inflate(R.layout.fragment_layout, container, false);
+        View v = inflater.inflate(R.layout.base_layout, container, false);
  
+        switch(position)
+        {
+	        //case 0: RELATIONSHIP MAINTENENCE LAYOUT
+	        //	v = inflater.inflate(R.layout.*********, container, false);
+	    	//  break;
+	        case 1: 
+	        	v = inflater.inflate(R.layout.scripts_home, container, false);
+	        	break;
+	        //case 2: HYGIENE LAYOUT
+	        //	v = inflater.inflate(R.layout.*********, container, false);
+	    	//  break;
+	        //case 3: TIME MANAGEMENT LAYOUT
+	        //	v = inflater.inflate(R.layout.********, container, false);
+	    	//  break;
+	        //case 4: EMERGENCY INFO LAYOUT
+	        //	v = inflater.inflate(R.layout.********, container, false);
+	    	//  break;        	
+	        default:
+	        	v = inflater.inflate(R.layout.base_layout, container, false);
+	        	break;
+        }
+        
+        /*
         // Getting reference to the TextView of the Fragment   
         //The next few lines are irrelevant since this referenes the text view of the fragment layout
         //we need to change this fragment layout to the different menu activities
@@ -34,7 +57,9 @@ public class LifeAppPart extends Fragment {
         //
         tv.setText(menuItems[position]);
  
+ 		*/
         // Updating the action bar title
+        //This part stays
         getActivity().getActionBar().setTitle(menuItems[position]);
  
         return v;

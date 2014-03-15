@@ -28,26 +28,61 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
+        public static final int action_settings=0x7f090008;
         public static final int content_frame=0x7f090001;
+        public static final int departures_button=0x7f090005;
+        public static final int disagreements_button=0x7f090006;
+        public static final int dos_and_donts_button=0x7f090007;
         public static final int drawer_layout=0x7f090000;
         public static final int drawer_list=0x7f090002;
-        public static final int tv_content=0x7f090003;
+        public static final int greetings_button=0x7f090004;
+        public static final int textView1=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int drawer_list_item=0x7f030001;
-        public static final int fragment_layout=0x7f030002;
+        public static final int base_layout=0x7f030001;
+        public static final int drawer_list_item=0x7f030002;
+        public static final int scripts_home=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
+        public static final int active_listening_button=0x7f050017;
         public static final int app_name=0x7f050000;
+        public static final int asking_questions_button=0x7f050016;
+        public static final int content_button=0x7f050019;
+        public static final int departures_button=0x7f050006;
+        public static final int disagreements_button=0x7f050007;
+        public static final int dos_and_donts_button=0x7f050008;
         public static final int drawer_close=0x7f050004;
         public static final int drawer_open=0x7f050003;
+        public static final int family_sub_cat=0x7f05000a;
+        public static final int friends_sub_cat=0x7f05000b;
+        public static final int greetings_button=0x7f050005;
         public static final int hello_world=0x7f050002;
+        public static final int new_people_sub_cat=0x7f05000c;
+        public static final int professionals_sub_cat=0x7f05000d;
+        public static final int sample_script_family=0x7f05001e;
+        public static final int sample_script_friends=0x7f05001f;
+        public static final int sample_script_long=0x7f050022;
+        public static final int sample_script_new_people=0x7f050020;
+        public static final int sample_script_professionals=0x7f050021;
+        public static final int script_sample_text=0x7f05000e;
+        public static final int scripts_home_title=0x7f050009;
+        public static final int title_activity_active_listening=0x7f05001b;
+        public static final int title_activity_asking_questions=0x7f05001a;
+        public static final int title_activity_content=0x7f05001d;
+        public static final int title_activity_departures_script=0x7f050010;
+        public static final int title_activity_disagreements_script=0x7f050011;
+        public static final int title_activity_dos_and_donts_script=0x7f050012;
+        public static final int title_activity_greetings_script=0x7f050013;
+        public static final int title_activity_video_samples=0x7f050015;
+        public static final int title_activity_volume=0x7f05001c;
+        public static final int title_activity_written_samples=0x7f050014;
+        public static final int video_sample_text=0x7f05000f;
+        public static final int volume_button=0x7f050018;
     }
     public static final class style {
         /** 
