@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
                     mTitle = menuItems[position];
  
                     // Creating a fragment object
-                    LifeAppPart rFragment = new LifeAppPart();
+                    LifeAppMenuSelections rFragment = new LifeAppMenuSelections();
  
                     // Creating a Bundle object
                     Bundle data = new Bundle();

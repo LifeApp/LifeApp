@@ -1,3 +1,5 @@
+//The package and the first import are from the site where the code was copied from,
+//we should probably get around to changing this
 package in.wptrafficanalyzer.navigationdrawer;
 
 import in.wptrafficanalyzer.navigationdrawer.R;
@@ -6,26 +8,25 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-public class LifeAppPart extends Fragment {
+public class LifeAppMenuSelections extends Fragment {
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
         Bundle savedInstanceState) {
  
         // Retrieving the currently selected item number
-        int position = getArguments().getInt("position");
+        int menuItemSelected = getArguments().getInt("position");
  
         // List of menu items
         String[] menuItems = getResources().getStringArray(R.array.life_app_main_menu_items);
  
-        // Creating view correspoding to the fragment
+        // Creating view corresponding to the fragment
         /*IMPORTANT******* 
          * This references the layout to be displayed after clicking a menu item
          */
         View v = inflater.inflate(R.layout.base_layout, container, false);
  
-        switch(position)
+        switch(menuItemSelected)
         {
 	        //case 0: RELATIONSHIP MAINTENENCE LAYOUT
 	        //	v = inflater.inflate(R.layout.*********, container, false);
@@ -49,7 +50,7 @@ public class LifeAppPart extends Fragment {
         
         /*
         // Getting reference to the TextView of the Fragment   
-        //The next few lines are irrelevant since this referenes the text view of the fragment layout
+        //The next few lines are irrelevant since this references the text view of the fragment layout
         //we need to change this fragment layout to the different menu activities
         TextView tv = (TextView) v.findViewById(R.id.tv_content);
  
@@ -60,9 +61,8 @@ public class LifeAppPart extends Fragment {
  		*/
         // Updating the action bar title
         //This part stays
-        getActivity().getActionBar().setTitle(menuItems[position]);
+        getActivity().getActionBar().setTitle(menuItems[menuItemSelected]);
  
         return v;
     }
-
 }
