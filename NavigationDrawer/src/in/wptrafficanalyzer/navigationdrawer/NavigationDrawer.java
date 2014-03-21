@@ -35,7 +35,7 @@ public class NavigationDrawer extends Activity {
         super.onCreate(savedInstanceState);
         //Starts the main layout 
         //Maybe we can edit this so that the Nav drawer is over the relationship maintenance layout
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_drawer_layout);
  
         mTitle = (String) getTitle();
  
@@ -70,7 +70,7 @@ public class NavigationDrawer extends Activity {
         // Creating an ArrayAdapter to add items to the listview mDrawerList
         ArrayAdapter<String> lifeMainMenuItems = new ArrayAdapter<String>(
             getBaseContext(),
-            R.layout.drawer_list_item ,
+            R.layout.drawer_list_layout ,
             getResources().getStringArray(R.array.life_app_main_menu_items)
         );
  

@@ -30,19 +30,19 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f090008;
         public static final int content_frame=0x7f090001;
-        public static final int departures_button=0x7f090005;
-        public static final int disagreements_button=0x7f090006;
-        public static final int dos_and_donts_button=0x7f090007;
+        public static final int departures_button=0x7f090004;
+        public static final int disagreements_button=0x7f090005;
+        public static final int dos_and_donts_button=0x7f090006;
         public static final int drawer_layout=0x7f090000;
         public static final int drawer_list=0x7f090002;
-        public static final int greetings_button=0x7f090004;
-        public static final int textView1=0x7f090003;
+        public static final int greetings_button=0x7f090003;
+        public static final int textView1=0x7f090007;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int base_layout=0x7f030001;
-        public static final int drawer_list_item=0x7f030002;
-        public static final int scripts_home=0x7f030003;
+        public static final int drawer_list_layout=0x7f030000;
+        public static final int main_drawer_layout=0x7f030001;
+        public static final int scripts_home=0x7f030002;
+        public static final int test_layout=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;

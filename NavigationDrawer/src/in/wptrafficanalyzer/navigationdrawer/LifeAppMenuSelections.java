@@ -24,7 +24,7 @@ public class LifeAppMenuSelections extends Fragment {
         /*IMPORTANT******* 
          * This references the layout to be displayed after clicking a menu item
          */
-        View v = inflater.inflate(R.layout.base_layout, container, false);
+        View v = inflater.inflate(R.layout.test_layout, container, false);
  
         switch(menuItemSelected)
         {
@@ -44,7 +44,7 @@ public class LifeAppMenuSelections extends Fragment {
 	        //	v = inflater.inflate(R.layout.********, container, false);
 	    	//  break;        	
 	        default:
-	        	v = inflater.inflate(R.layout.base_layout, container, false);
+	        	v = inflater.inflate(R.layout.test_layout, container, false);
 	        	break;
         }
         
