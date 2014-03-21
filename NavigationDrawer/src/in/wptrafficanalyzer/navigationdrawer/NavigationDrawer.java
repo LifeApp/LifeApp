@@ -15,7 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends Activity {
+public class NavigationDrawer extends Activity {
 
 	// Within which the entire activity is enclosed
     DrawerLayout lifeDrawerLayout;
