@@ -21,26 +21,22 @@ public final class R {
         public static final int title_height=0x7f050000;
     }
     public static final class drawable {
-        public static final int android__logo_froyo=0x7f020000;
-        public static final int android_eclair_logo=0x7f020001;
-        public static final int android_gingerbread_logo=0x7f020002;
-        public static final int android_honeycomb_logo=0x7f020003;
-        public static final int android_ics_logo=0x7f020004;
-        public static final int android_jellybean_logo=0x7f020005;
-        public static final int ic_feedback=0x7f020006;
-        public static final int ic_home=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
+        public static final int android__logo_family=0x7f020000;
+        public static final int android__logo_froyo=0x7f020001;
+        public static final int android_family1_logo=0x7f020002;
+        public static final int android_ginger_logo=0x7f020003;
+        public static final int android_writtensamples_logo=0x7f020004;
+        public static final int ic_feedback=0x7f020005;
+        public static final int ic_home=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
     }
     public static final class id {
         public static final int btnFeedback=0x7f080007;
         public static final int btnHome=0x7f080004;
         public static final int header=0x7f080001;
-        public static final int main_btn_eclair=0x7f080008;
-        public static final int main_btn_froyo=0x7f080009;
-        public static final int main_btn_gingerbread=0x7f08000a;
-        public static final int main_btn_honeycomb=0x7f08000b;
-        public static final int main_btn_ics=0x7f08000c;
-        public static final int main_btn_jellybean=0x7f08000d;
+        public static final int main_btn_Departures=0x7f080009;
+        public static final int main_btn_Greetings=0x7f080008;
+        public static final int main_btn_HandlingDisagreements=0x7f08000a;
         public static final int panelIconLeft=0x7f080003;
         public static final int panelIconRight=0x7f080006;
         public static final int textView1=0x7f080002;
@@ -48,27 +44,21 @@ public final class R {
         public static final int vsHeader=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_eclair=0x7f030000;
+        public static final int activity_departures=0x7f030000;
         public static final int activity_feedback=0x7f030001;
-        public static final int activity_froyo=0x7f030002;
-        public static final int activity_gingerbread=0x7f030003;
-        public static final int activity_honeycomb=0x7f030004;
-        public static final int activity_ics=0x7f030005;
-        public static final int activity_jellybean=0x7f030006;
-        public static final int header=0x7f030007;
-        public static final int main=0x7f030008;
+        public static final int activity_greetings=0x7f030002;
+        public static final int activity_handlingdisagreements=0x7f030003;
+        public static final int header=0x7f030004;
+        public static final int main=0x7f030005;
     }
     public static final class string {
-        public static final int EclairActivityTitle=0x7f060005;
+        public static final int DeparturesActivityTitle=0x7f060006;
         public static final int FeedbackActivityTitle=0x7f060004;
-        public static final int FroyoActivityTitle=0x7f060006;
-        public static final int GingerbreadActivityTitle=0x7f060007;
+        public static final int GreetingsActivityTitle=0x7f060005;
+        public static final int HandlingDisagreementsActivityTitle=0x7f060007;
         /**  Activity Titles 
          */
         public static final int HomeActivityTitle=0x7f060003;
-        public static final int HoneycombActivityTitle=0x7f060008;
-        public static final int ICSActivityTitle=0x7f060009;
-        public static final int JellyBeanActivityTitle=0x7f06000a;
         public static final int app_name=0x7f060001;
         public static final int hello=0x7f060000;
         public static final int txtDemo=0x7f060002;

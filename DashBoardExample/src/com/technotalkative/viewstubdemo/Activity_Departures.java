@@ -7,7 +7,7 @@ public class Activity_Departures extends DashBoardActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Departures);
+        setContentView(R.layout.activity_departures);
         setHeader(getString(R.string.DeparturesActivityTitle), true, true);
         
     }

@@ -7,7 +7,7 @@ public class Activity_HandlingDisagreements extends DashBoardActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_HandlingDisagreements);
+        setContentView(R.layout.activity_handlingdisagreements);
         setHeader(getString(R.string.HandlingDisagreementsActivityTitle), true, true);
         
     }

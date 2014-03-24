@@ -7,7 +7,7 @@ public class Activity_Greetings extends DashBoardActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Greetings);
+        setContentView(R.layout.activity_greetings);
         setHeader(getString(R.string.GreetingsActivityTitle), true, true);
         
     }
