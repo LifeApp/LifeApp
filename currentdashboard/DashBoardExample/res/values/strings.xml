@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!!</string>
+    <string name="app_name">DashBoardExample</string>
+
+    <string name="txtDemo">This is the DashBoard example. </string>
+    
+    <!-- Activity Titles -->
+    <string name="HomeActivityTitle">Greetings</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="GreetingsActivityTitle">Friends</string>
+    <string name="DeparturesActivityTitle">Family</string>
+    <string name="HandlingDisagreementsActivityTitle">New People</string>
+</resources>
