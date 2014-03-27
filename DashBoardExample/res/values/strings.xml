@@ -7,7 +7,7 @@
     <string name="txtDemo">This is the DashBoard example. </string>
     
     <!-- Activity Titles -->
-    <string name="HomeActivityTitle">TechnoTalkative | Dashboard example</string>
+    <string name="HomeActivityTitle">Life App</string>
     <string name="FeedbackActivityTitle">Feedback</string>
     <string name="GreetingsActivityTitle">Family</string>
     <string name="DeparturesActivityTitle">Family</string>
