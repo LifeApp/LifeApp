@@ -3,6 +3,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:weightSum="4" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="@string/scripts_home_title"/>"
     
     <ImageButton
         android:contentDescription="@string/greetings_button"
