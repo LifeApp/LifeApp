@@ -28,21 +28,21 @@ public class LifeAppMenuSelections extends Fragment {
  
         switch(menuItemSelected)
         {
-	        //case 0: RELATIONSHIP MAINTENENCE LAYOUT
-	        //	v = inflater.inflate(R.layout.*********, container, false);
-	    	//  break;
+	        case 0: 
+		        v = inflater.inflate(R.layout.relationship_maint_home, container, false);
+		        break;
 	        case 1: 
 	        	v = inflater.inflate(R.layout.scripts_home, container, false);
 	        	break;
-	        //case 2: HYGIENE LAYOUT
-	        //	v = inflater.inflate(R.layout.*********, container, false);
-	    	//  break;
-	        //case 3: TIME MANAGEMENT LAYOUT
-	        //	v = inflater.inflate(R.layout.********, container, false);
-	    	//  break;
-	        //case 4: EMERGENCY INFO LAYOUT
-	        //	v = inflater.inflate(R.layout.********, container, false);
-	    	//  break;        	
+	        case 2:
+		       	v = inflater.inflate(R.layout.hygiene_home, container, false);
+		    	break;
+	        case 3:
+		        v = inflater.inflate(R.layout.time_management_home, container, false);
+		    	break;
+	        case 4: 
+		        v = inflater.inflate(R.layout.emergency_info_home, container, false);
+		    	break;        	
 	        default:
 	        	v = inflater.inflate(R.layout.test_layout, container, false);
 	        	break;

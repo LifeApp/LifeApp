@@ -33,7 +33,8 @@ public final class R {
         public static final int waving_bye=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f090007;
+        public static final int action_settings=0x7f090008;
+        public static final int calendarView1=0x7f090007;
         public static final int content_frame=0x7f090001;
         public static final int departures_button=0x7f090004;
         public static final int disagreements_button=0x7f090005;
@@ -44,9 +45,13 @@ public final class R {
     }
     public static final class layout {
         public static final int drawer_list_layout=0x7f030000;
-        public static final int main_drawer_layout=0x7f030001;
-        public static final int scripts_home=0x7f030002;
-        public static final int test_layout=0x7f030003;
+        public static final int emergency_info_home=0x7f030001;
+        public static final int hygiene_home=0x7f030002;
+        public static final int main_drawer_layout=0x7f030003;
+        public static final int relationship_maint_home=0x7f030004;
+        public static final int scripts_home=0x7f030005;
+        public static final int test_layout=0x7f030006;
+        public static final int time_management_home=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -62,12 +67,15 @@ public final class R {
         public static final int dos_and_donts_button=0x7f050008;
         public static final int drawer_close=0x7f050004;
         public static final int drawer_open=0x7f050003;
+        public static final int emergency_info_home=0x7f050024;
         public static final int family_sub_cat=0x7f05000a;
         public static final int friends_sub_cat=0x7f05000b;
         public static final int greetings_button=0x7f050005;
         public static final int hello_world=0x7f050002;
+        public static final int hygiene_home=0x7f050026;
         public static final int new_people_sub_cat=0x7f05000c;
         public static final int professionals_sub_cat=0x7f05000d;
+        public static final int relationship_maint_home=0x7f050023;
         public static final int sample_script_family=0x7f05001e;
         public static final int sample_script_friends=0x7f05001f;
         public static final int sample_script_long=0x7f050022;
@@ -75,6 +83,7 @@ public final class R {
         public static final int sample_script_professionals=0x7f050021;
         public static final int script_sample_text=0x7f05000e;
         public static final int scripts_home_title=0x7f050009;
+        public static final int time_management_home=0x7f050025;
         public static final int title_activity_active_listening=0x7f05001b;
         public static final int title_activity_asking_questions=0x7f05001a;
         public static final int title_activity_content=0x7f05001d;

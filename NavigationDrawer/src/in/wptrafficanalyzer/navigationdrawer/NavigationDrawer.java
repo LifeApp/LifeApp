@@ -35,7 +35,7 @@ public class NavigationDrawer extends Activity {
         super.onCreate(savedInstanceState);
         //Starts the main layout 
         //Maybe we can edit this so that the Nav drawer is over the relationship maintenance layout
-        setContentView(R.layout.main_drawer_layout);
+        setContentView(R.layout.main_drawer_layout);  
  
         mTitle = (String) getTitle();
  

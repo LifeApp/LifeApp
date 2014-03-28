@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NavigationDrawer</string>
+    <string name="app_name">Life-App</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 <string-array name="life_app_main_menu_items">
@@ -44,5 +44,9 @@
     <string name="sample_script_new_people">NEW PEOPLEThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
     <string name="sample_script_professionals">PROFESSIONALSThe best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
     <string name="sample_script_long">The best way to say something is neato, awesome, or swell. The phrase cool is very relaxed, never goes out of style, and people will never laugh at you for using it, very conveniant for people like me who dont care about whats in</string>
+    <string name="relationship_maint_home">Relationship Maintenance</string>
+    <string name="emergency_info_home">Emergency Information</string>
+    <string name="time_management_home">Time Management</string>
+    <string name="hygiene_home">Hygiene</string>
     
 </resources>
