@@ -14,8 +14,9 @@
         android:layout="@layout/header" />
 
     <LinearLayout
-        android:layout_width="206dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.25"
         android:orientation="horizontal" >
 
         <Button
@@ -31,10 +32,11 @@
             android:id="@+id/main_btn_Greetings"
             style="@style/HomeButton"
             android:layout_width="93dp"
-            android:layout_height="162dp"
-            android:drawableTop="@drawable/android_logo_family1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/android__logo_family1"
             android:onClick="onButtonClicker"
             android:text="@string/GreetingsActivityTitle" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -44,21 +46,21 @@
         android:orientation="vertical"
         android:padding="6dip" >
 
+        <Button
+            android:id="@+id/main_btn_HandlingDisagreements"
+            style="@style/HomeButton"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56"
+            android:drawableTop="@drawable/android_writeensamples_logo"
+            android:onClick="onButtonClicker"
+            android:text="@string/HandlingDisagreementsActivityTitle" />
+
         <LinearLayout
             android:layout_width="113dp"
             android:layout_height="128dp"
             android:orientation="horizontal" >
         </LinearLayout>
-
-        <Button
-            android:id="@+id/main_btn_HandlingDisagreements"
-            style="@style/HomeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="265dp"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/android_writeensamples_logo"
-            android:onClick="onButtonClicker"
-            android:text="@string/HandlingDisagreementsActivityTitle" />
 
         <LinearLayout
             android:layout_width="fill_parent"

@@ -9,7 +9,7 @@
     <!-- Activity Titles -->
     <string name="HomeActivityTitle">Greetings</string>
     <string name="FeedbackActivityTitle">Feedback</string>
-    <string name="GreetingsActivityTitle">Friends</string>
-    <string name="DeparturesActivityTitle">Family</string>
-    <string name="HandlingDisagreementsActivityTitle">New People</string>
+    <string name="GreetingsActivityTitle">Handling Disagreements</string>
+    <string name="DeparturesActivityTitle">Greetings</string>
+    <string name="HandlingDisagreementsActivityTitle">Departures</string>
 </resources>
