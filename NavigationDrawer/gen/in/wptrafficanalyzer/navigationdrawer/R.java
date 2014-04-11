@@ -9,9 +9,12 @@ package in.wptrafficanalyzer.navigationdrawer;
 
 public final class R {
     public static final class array {
-        public static final int life_app_main_menu_items=0x7f060000;
+        public static final int life_app_main_menu_items=0x7f070000;
     }
     public static final class attr {
+    }
+    public static final class color {
+        public static final int white=0x7f040000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -20,8 +23,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int disagreements=0x7f020000;
@@ -33,15 +36,14 @@ public final class R {
         public static final int waving_bye=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f090008;
-        public static final int calendarView1=0x7f090007;
-        public static final int content_frame=0x7f090001;
-        public static final int departures_button=0x7f090004;
-        public static final int disagreements_button=0x7f090005;
-        public static final int drawer_layout=0x7f090000;
-        public static final int drawer_list=0x7f090002;
-        public static final int greetings_button=0x7f090003;
-        public static final int textView1=0x7f090006;
+        public static final int action_settings=0x7f0a0007;
+        public static final int button1=0x7f0a0003;
+        public static final int button2=0x7f0a0004;
+        public static final int calendarView1=0x7f0a0006;
+        public static final int content_frame=0x7f0a0001;
+        public static final int drawer_layout=0x7f0a0000;
+        public static final int drawer_list=0x7f0a0002;
+        public static final int textView1=0x7f0a0005;
     }
     public static final class layout {
         public static final int drawer_list_layout=0x7f030000;
@@ -54,48 +56,48 @@ public final class R {
         public static final int time_management_home=0x7f030007;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int active_listening_button=0x7f050017;
-        public static final int app_name=0x7f050000;
-        public static final int asking_questions_button=0x7f050016;
-        public static final int content_button=0x7f050019;
-        public static final int departures_button=0x7f050006;
-        public static final int disagreements_button=0x7f050007;
-        public static final int dos_and_donts_button=0x7f050008;
-        public static final int drawer_close=0x7f050004;
-        public static final int drawer_open=0x7f050003;
-        public static final int emergency_info_home=0x7f050024;
-        public static final int family_sub_cat=0x7f05000a;
-        public static final int friends_sub_cat=0x7f05000b;
-        public static final int greetings_button=0x7f050005;
-        public static final int hello_world=0x7f050002;
-        public static final int hygiene_home=0x7f050026;
-        public static final int new_people_sub_cat=0x7f05000c;
-        public static final int professionals_sub_cat=0x7f05000d;
-        public static final int relationship_maint_home=0x7f050023;
-        public static final int sample_script_family=0x7f05001e;
-        public static final int sample_script_friends=0x7f05001f;
-        public static final int sample_script_long=0x7f050022;
-        public static final int sample_script_new_people=0x7f050020;
-        public static final int sample_script_professionals=0x7f050021;
-        public static final int script_sample_text=0x7f05000e;
-        public static final int scripts_home_title=0x7f050009;
-        public static final int time_management_home=0x7f050025;
-        public static final int title_activity_active_listening=0x7f05001b;
-        public static final int title_activity_asking_questions=0x7f05001a;
-        public static final int title_activity_content=0x7f05001d;
-        public static final int title_activity_departures_script=0x7f050010;
-        public static final int title_activity_disagreements_script=0x7f050011;
-        public static final int title_activity_dos_and_donts_script=0x7f050012;
-        public static final int title_activity_greetings_script=0x7f050013;
-        public static final int title_activity_video_samples=0x7f050015;
-        public static final int title_activity_volume=0x7f05001c;
-        public static final int title_activity_written_samples=0x7f050014;
-        public static final int video_sample_text=0x7f05000f;
-        public static final int volume_button=0x7f050018;
+        public static final int action_settings=0x7f060001;
+        public static final int active_listening_button=0x7f060017;
+        public static final int app_name=0x7f060000;
+        public static final int asking_questions_button=0x7f060016;
+        public static final int content_button=0x7f060019;
+        public static final int departures_button=0x7f060006;
+        public static final int disagreements_button=0x7f060007;
+        public static final int dos_and_donts_button=0x7f060008;
+        public static final int drawer_close=0x7f060004;
+        public static final int drawer_open=0x7f060003;
+        public static final int emergency_info_home=0x7f060024;
+        public static final int family_sub_cat=0x7f06000a;
+        public static final int friends_sub_cat=0x7f06000b;
+        public static final int greetings_button=0x7f060005;
+        public static final int hello_world=0x7f060002;
+        public static final int hygiene_home=0x7f060026;
+        public static final int new_people_sub_cat=0x7f06000c;
+        public static final int professionals_sub_cat=0x7f06000d;
+        public static final int relationship_maint_home=0x7f060023;
+        public static final int sample_script_family=0x7f06001e;
+        public static final int sample_script_friends=0x7f06001f;
+        public static final int sample_script_long=0x7f060022;
+        public static final int sample_script_new_people=0x7f060020;
+        public static final int sample_script_professionals=0x7f060021;
+        public static final int script_sample_text=0x7f06000e;
+        public static final int scripts_home_title=0x7f060009;
+        public static final int time_management_home=0x7f060025;
+        public static final int title_activity_active_listening=0x7f06001b;
+        public static final int title_activity_asking_questions=0x7f06001a;
+        public static final int title_activity_content=0x7f06001d;
+        public static final int title_activity_departures_script=0x7f060010;
+        public static final int title_activity_disagreements_script=0x7f060011;
+        public static final int title_activity_dos_and_donts_script=0x7f060012;
+        public static final int title_activity_greetings_script=0x7f060013;
+        public static final int title_activity_video_samples=0x7f060015;
+        public static final int title_activity_volume=0x7f06001c;
+        public static final int title_activity_written_samples=0x7f060014;
+        public static final int video_sample_text=0x7f06000f;
+        public static final int volume_button=0x7f060018;
     }
     public static final class style {
         /** 
@@ -119,10 +121,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }
